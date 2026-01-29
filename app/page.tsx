@@ -128,78 +128,66 @@ Thank you!`)
         </div>
       </section>
 
-      <section id="medicare" className="py-20 bg-gradient-to-br from-blue-600 to-blue-700">
+      <section id="medicare" className="py-20 bg-gradient-to-br from-blue-600 to-blue-800">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <div className="inline-block bg-white text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              <div className="inline-block bg-white text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 ⭐ FEATURED SERVICE - ACTIVE CLIENTS
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-white">
-                Medicare Leads by Task4Leads
-              </h2>
-              <p className="text-xl text-blue-50 text-pretty max-w-3xl mx-auto">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-white">Medicare Leads by Task4Leads</h2>
+              <p className="text-xl text-blue-100 text-pretty max-w-3xl mx-auto">
                 Convert Medicare inquiries into enrolled clients with our specialized follow-up system designed for
                 insurance agents and Medicare advisors.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <Card className="bg-white border-2 border-blue-200">
+              <Card className="bg-white border-0 shadow-lg">
                 <CardContent className="p-8">
                   <Heart className="h-12 w-12 text-blue-600 mb-4" />
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">Why Medicare Leads Are Different</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-gray-900">Why Medicare Leads Are Different</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">
-                        Time-sensitive enrollment periods require immediate response
-                      </span>
+                      <span>Time-sensitive enrollment periods require immediate response</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">
-                        Seniors need patient, knowledgeable guidance through complex options
-                      </span>
+                      <span>Seniors need patient, knowledgeable guidance through complex options</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">
-                        Multiple touchpoints needed to build trust and answer questions
-                      </span>
+                      <span>Multiple touchpoints needed to build trust and answer questions</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">Compliance-focused communication that meets CMS guidelines</span>
+                      <span>Compliance-focused communication that meets CMS guidelines</span>
                     </li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="bg-white border-2 border-blue-200">
+              <Card className="bg-white border-0 shadow-lg">
                 <CardContent className="p-8">
                   <TrendingUp className="h-12 w-12 text-blue-600 mb-4" />
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">Our Medicare Lead Process</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-gray-900">Our Medicare Lead Process</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">
-                        Instant response to Medicare inquiries (calls, forms, chats)
-                      </span>
+                      <span>Instant response to Medicare inquiries (calls, forms, chats)</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">
-                        Trained specialists who understand Medicare Advantage, Supplement, Part D
-                      </span>
+                      <span>Trained specialists who understand Medicare Advantage, Supplement, Part D</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">Multi-channel follow-up via phone, email, and SMS</span>
+                      <span>Multi-channel follow-up via phone, email, and SMS</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700">Appointment scheduling directly into your calendar</span>
+                      <span>Appointment scheduling directly into your calendar</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -210,7 +198,7 @@ Thank you!`)
               <Button
                 size="lg"
                 onClick={() => handleBookDemo("Medicare")}
-                className="bg-white hover:bg-blue-50 text-blue-700 text-lg px-8 py-4"
+                className="bg-white hover:bg-blue-50 text-blue-600 text-lg px-8 py-4 font-semibold"
               >
                 Get Medicare Leads Demo
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -226,7 +214,7 @@ Thank you!`)
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <Home className="h-16 w-16 text-emerald-700 mb-6" />
-                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-emerald-900">Real Estate Leads</h2>
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-gray-900">Real Estate Leads</h2>
                 <p className="text-xl text-gray-700 mb-8 text-pretty">
                   Convert property inquiries into showings and closings. We handle buyer and seller leads so you can
                   focus on closing deals.
@@ -236,8 +224,8 @@ Thank you!`)
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-emerald-900">Instant Response to Property Inquiries</h4>
-                      <p className="text-gray-600">
+                      <h4 className="font-semibold mb-1 text-gray-900">Instant Response to Property Inquiries</h4>
+                      <p className="text-gray-700">
                         Buyers and sellers expect immediate answers. We respond within minutes to every lead.
                       </p>
                     </div>
@@ -245,8 +233,8 @@ Thank you!`)
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-emerald-900">Showing Coordination</h4>
-                      <p className="text-gray-600">
+                      <h4 className="font-semibold mb-1 text-gray-900">Showing Coordination</h4>
+                      <p className="text-gray-700">
                         We schedule property showings and open house appointments directly into your calendar.
                       </p>
                     </div>
@@ -254,8 +242,8 @@ Thank you!`)
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-emerald-900">Lead Qualification</h4>
-                      <p className="text-gray-600">
+                      <h4 className="font-semibold mb-1 text-gray-900">Lead Qualification</h4>
+                      <p className="text-gray-700">
                         We pre-qualify buyers and sellers so you only meet with serious, ready-to-move clients.
                       </p>
                     </div>
@@ -263,8 +251,8 @@ Thank you!`)
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-emerald-900">Multi-Channel Follow-Up</h4>
-                      <p className="text-gray-600">
+                      <h4 className="font-semibold mb-1 text-gray-900">Multi-Channel Follow-Up</h4>
+                      <p className="text-gray-700">
                         Persistent follow-up via phone, email, and SMS until the appointment is booked.
                       </p>
                     </div>
@@ -293,7 +281,7 @@ Thank you!`)
         </div>
       </section>
 
-      <section id="construction" className="py-20 bg-gradient-to-br from-[#1F3A60] to-[#2a4d7a]">
+      <section id="construction" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -306,46 +294,46 @@ Thank you!`)
               </div>
 
               <div className="order-1 lg:order-2">
-                <HardHat className="h-16 w-16 text-[#FF6B2C] mb-6" />
-                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-white">Construction Leads</h2>
-                <p className="text-xl text-blue-100 mb-8 text-pretty">
+                <HardHat className="h-16 w-16 text-primary mb-6" />
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Construction Leads</h2>
+                <p className="text-xl text-muted-foreground mb-8 text-pretty">
                   Turn homeowner inquiries into booked jobs for roofing, HVAC, remodeling, and general contracting
                   businesses.
                 </p>
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-[#FF6B2C] mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-white">24/7 Lead Response</h4>
-                      <p className="text-blue-100">
+                      <h4 className="font-semibold mb-1">24/7 Lead Response</h4>
+                      <p className="text-muted-foreground">
                         Homeowners call when you're on the job site. We answer every call, chat, and form submission.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-[#FF6B2C] mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-white">Estimate Appointment Booking</h4>
-                      <p className="text-blue-100">
+                      <h4 className="font-semibold mb-1">Estimate Appointment Booking</h4>
+                      <p className="text-muted-foreground">
                         We schedule on-site estimates and consultations directly into your calendar.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-[#FF6B2C] mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-white">Project Details Collection</h4>
-                      <p className="text-blue-100">
+                      <h4 className="font-semibold mb-1">Project Details Collection</h4>
+                      <p className="text-muted-foreground">
                         We gather key project information so you arrive prepared for every estimate.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-[#FF6B2C] mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-white">Persistent Follow-Up</h4>
-                      <p className="text-blue-100">
+                      <h4 className="font-semibold mb-1">Persistent Follow-Up</h4>
+                      <p className="text-muted-foreground">
                         Most contractors lose 30-40% of leads. We follow up until the job is booked.
                       </p>
                     </div>
@@ -355,7 +343,7 @@ Thank you!`)
                 <Button
                   size="lg"
                   onClick={() => handleBookDemo("Construction")}
-                  className="bg-[#FF6B2C] hover:bg-[#ff5a1a] text-white"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground"
                 >
                   Get Construction Demo
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -416,7 +404,7 @@ Thank you!`)
             <div className="grid md:grid-cols-4 gap-8 items-center">
               <Card className="bg-primary/5 border-primary/20">
                 <CardContent className="p-6 text-center">
-                  <AlertTriangle className="h-6 w-6 text-primary mx-auto mb-3" />
+                  <AlertTriangle className="h-10 w-10 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Lead Comes In</h3>
                   <p className="text-sm text-muted-foreground">Call, chat, or form submission</p>
                 </CardContent>
@@ -428,7 +416,7 @@ Thank you!`)
 
               <Card className="bg-accent/5 border-accent/20">
                 <CardContent className="p-6 text-center">
-                  <Clock className="h-6 w-6 text-accent mx-auto mb-3" />
+                  <Clock className="h-10 w-10 text-accent mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Instant Follow-Up</h3>
                   <p className="text-sm text-muted-foreground">We respond within minutes</p>
                 </CardContent>
@@ -440,7 +428,7 @@ Thank you!`)
 
               <Card className="bg-green-50 border-green-200">
                 <CardContent className="p-6 text-center">
-                  <Calendar className="h-6 w-6 text-green-600 mx-auto mb-3" />
+                  <Calendar className="h-10 w-10 text-green-600 mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Booked Appointment</h3>
                   <p className="text-sm text-muted-foreground">Scheduled in your calendar</p>
                 </CardContent>
