@@ -65,9 +65,6 @@ Thank you!`)
             </a>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#medicare" className="text-muted-foreground hover:text-foreground transition-colors">
-              Medicare
-            </a>
             <a href="#real-estate" className="text-muted-foreground hover:text-foreground transition-colors">
               Real Estate
             </a>
@@ -101,7 +98,7 @@ Thank you!`)
               Turn Inquiries Into Booked Appointments
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 text-pretty">
-              Professional lead conversion services for Medicare, Real Estate, and Construction industries.
+              Professional lead conversion services for Real Estate and Construction industries.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button
@@ -128,85 +125,7 @@ Thank you!`)
         </div>
       </section>
 
-      <section id="medicare" className="py-20 bg-gradient-to-br from-blue-50 to-blue-100">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <div className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                ⭐ FEATURED SERVICE - ACTIVE CLIENTS
-              </div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Medicare Leads by Task4Leads</h2>
-              <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
-                Convert Medicare inquiries into enrolled clients with our specialized follow-up system designed for
-                insurance agents and Medicare advisors.
-              </p>
-            </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <Card className="bg-white border-2 border-primary/20">
-                <CardContent className="p-8">
-                  <Heart className="h-12 w-12 text-primary mb-4" />
-                  <h3 className="text-2xl font-bold mb-4">Why Medicare Leads Are Different</h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Time-sensitive enrollment periods require immediate response</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Seniors need patient, knowledgeable guidance through complex options</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Multiple touchpoints needed to build trust and answer questions</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Compliance-focused communication that meets CMS guidelines</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white border-2 border-accent/20">
-                <CardContent className="p-8">
-                  <TrendingUp className="h-12 w-12 text-accent mb-4" />
-                  <h3 className="text-2xl font-bold mb-4">Our Medicare Lead Process</h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Instant response to Medicare inquiries (calls, forms, chats)</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Trained specialists who understand Medicare Advantage, Supplement, Part D</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Multi-channel follow-up via phone, email, and SMS</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                      <span>Appointment scheduling directly into your calendar</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => handleBookDemo("Medicare")}
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-4"
-              >
-                Get Medicare Leads Demo
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section id="real-estate" className="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
         <div className="container mx-auto px-4">
@@ -278,32 +197,7 @@ Thank you!`)
               </div>
             </div>
 
-            <div className="mt-16 pt-16 border-t border-emerald-200">
-              <h3 className="text-3xl font-bold mb-8 text-center text-balance">Hear Our Real Estate Lead Generation in Action</h3>
-              <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-                <p className="text-center text-muted-foreground mb-6">
-                  Listen to how our team handles real estate leads with professionalism and efficiency:
-                </p>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="p-6 bg-emerald-50 rounded-lg">
-                    <h4 className="font-semibold mb-3 text-emerald-900">Sample Call 1: Buyer Inquiry</h4>
-                    <audio controls className="w-full">
-                      <source src="/audio-placeholder-buyer.mp3" type="audio/mpeg" />
-                      Your browser does not support the audio element.
-                    </audio>
-                    <p className="text-sm text-muted-foreground mt-2">Professional response to buyer inquiry and scheduling</p>
-                  </div>
-                  <div className="p-6 bg-emerald-50 rounded-lg">
-                    <h4 className="font-semibold mb-3 text-emerald-900">Sample Call 2: Seller Inquiry</h4>
-                    <audio controls className="w-full">
-                      <source src="/audio-placeholder-seller.mp3" type="audio/mpeg" />
-                      Your browser does not support the audio element.
-                    </audio>
-                    <p className="text-sm text-muted-foreground mt-2">Expert handling of seller inquiry and follow-up coordination</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
@@ -634,7 +528,7 @@ Thank you!`)
             Stop Losing Leads. Start Booking Appointments.
           </h2>
           <p className="text-xl mb-8 text-accent-foreground/90 max-w-2xl mx-auto text-pretty">
-            Join businesses across Medicare, Real Estate, and Construction who've transformed their lead conversion with
+            Join businesses across Real Estate and Construction who've transformed their lead conversion with
             Task4Leads.
           </p>
           <Button
@@ -665,12 +559,6 @@ Thank you!`)
             </div>
 
             <nav className="flex space-x-8 mb-4 md:mb-0">
-              <a
-                href="#medicare"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-              >
-                Medicare
-              </a>
               <a
                 href="#real-estate"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
