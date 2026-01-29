@@ -80,11 +80,11 @@ Thank you!`)
           </nav>
           <div className="flex items-center gap-4">
             <a
-              href="tel:+15625734658"
+              href="tel:+19362339064"
               className="hidden lg:flex items-center text-muted-foreground hover:text-foreground transition-colors"
             >
               <PhoneCall className="h-4 w-4 mr-2" />
-              <span className="font-semibold">(562) 573-4658</span>
+              <span className="font-semibold">(936) 233-9064</span>
             </a>
             <Button onClick={() => handleBookDemo()} className="bg-accent hover:bg-accent/90 text-accent-foreground">
               Book a Free Demo
@@ -118,9 +118,9 @@ Thank you!`)
                 variant="outline"
                 className="bg-white/10 hover:bg-white/20 text-primary-foreground border-primary-foreground/30 text-lg px-8 py-4"
               >
-                <a href="tel:+15625734658">
+                <a href="tel:+19362339064">
                   <PhoneCall className="mr-2 h-5 w-5" />
-                  Call (562) 573-4658
+                  Call (936) 233-9064
                 </a>
               </Button>
             </div>
@@ -128,65 +128,65 @@ Thank you!`)
         </div>
       </section>
 
-      <section id="medicare" className="py-20 bg-gradient-to-br from-blue-600 to-blue-800">
+      <section id="medicare" className="py-20 bg-gradient-to-br from-blue-50 to-blue-100">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <div className="inline-block bg-white text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              <div className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 ⭐ FEATURED SERVICE - ACTIVE CLIENTS
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-white">Medicare Leads by Task4Leads</h2>
-              <p className="text-xl text-blue-100 text-pretty max-w-3xl mx-auto">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Medicare Leads by Task4Leads</h2>
+              <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
                 Convert Medicare inquiries into enrolled clients with our specialized follow-up system designed for
                 insurance agents and Medicare advisors.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <Card className="bg-white border-0 shadow-lg">
+              <Card className="bg-white border-2 border-primary/20">
                 <CardContent className="p-8">
-                  <Heart className="h-12 w-12 text-blue-600 mb-4" />
-                  <h3 className="text-2xl font-bold mb-4 text-gray-900">Why Medicare Leads Are Different</h3>
+                  <Heart className="h-12 w-12 text-primary mb-4" />
+                  <h3 className="text-2xl font-bold mb-4">Why Medicare Leads Are Different</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Time-sensitive enrollment periods require immediate response</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Seniors need patient, knowledgeable guidance through complex options</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Multiple touchpoints needed to build trust and answer questions</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Compliance-focused communication that meets CMS guidelines</span>
                     </li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="bg-white border-0 shadow-lg">
+              <Card className="bg-white border-2 border-accent/20">
                 <CardContent className="p-8">
-                  <TrendingUp className="h-12 w-12 text-blue-600 mb-4" />
-                  <h3 className="text-2xl font-bold mb-4 text-gray-900">Our Medicare Lead Process</h3>
+                  <TrendingUp className="h-12 w-12 text-accent mb-4" />
+                  <h3 className="text-2xl font-bold mb-4">Our Medicare Lead Process</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Instant response to Medicare inquiries (calls, forms, chats)</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Trained specialists who understand Medicare Advantage, Supplement, Part D</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Multi-channel follow-up via phone, email, and SMS</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <span>Appointment scheduling directly into your calendar</span>
                     </li>
                   </ul>
@@ -198,7 +198,7 @@ Thank you!`)
               <Button
                 size="lg"
                 onClick={() => handleBookDemo("Medicare")}
-                className="bg-white hover:bg-blue-50 text-blue-600 text-lg px-8 py-4 font-semibold"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-4"
               >
                 Get Medicare Leads Demo
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -208,51 +208,51 @@ Thank you!`)
         </div>
       </section>
 
-      <section id="real-estate" className="py-20 bg-gradient-to-br from-emerald-50 to-amber-50">
+      <section id="real-estate" className="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <Home className="h-16 w-16 text-emerald-700 mb-6" />
-                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance text-gray-900">Real Estate Leads</h2>
-                <p className="text-xl text-gray-700 mb-8 text-pretty">
+                <Home className="h-16 w-16 text-emerald-600 mb-6" />
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Real Estate Leads</h2>
+                <p className="text-xl text-muted-foreground mb-8 text-pretty">
                   Convert property inquiries into showings and closings. We handle buyer and seller leads so you can
                   focus on closing deals.
                 </p>
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-gray-900">Instant Response to Property Inquiries</h4>
-                      <p className="text-gray-700">
+                      <h4 className="font-semibold mb-1">Instant Response to Property Inquiries</h4>
+                      <p className="text-muted-foreground">
                         Buyers and sellers expect immediate answers. We respond within minutes to every lead.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-gray-900">Showing Coordination</h4>
-                      <p className="text-gray-700">
+                      <h4 className="font-semibold mb-1">Showing Coordination</h4>
+                      <p className="text-muted-foreground">
                         We schedule property showings and open house appointments directly into your calendar.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-gray-900">Lead Qualification</h4>
-                      <p className="text-gray-700">
+                      <h4 className="font-semibold mb-1">Lead Qualification</h4>
+                      <p className="text-muted-foreground">
                         We pre-qualify buyers and sellers so you only meet with serious, ready-to-move clients.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold mb-1 text-gray-900">Multi-Channel Follow-Up</h4>
-                      <p className="text-gray-700">
+                      <h4 className="font-semibold mb-1">Multi-Channel Follow-Up</h4>
+                      <p className="text-muted-foreground">
                         Persistent follow-up via phone, email, and SMS until the appointment is booked.
                       </p>
                     </div>
@@ -275,6 +275,33 @@ Thank you!`)
                   alt="Real estate agent with clients"
                   className="rounded-lg shadow-2xl w-full h-auto"
                 />
+              </div>
+            </div>
+
+            <div className="mt-16 pt-16 border-t border-emerald-200">
+              <h3 className="text-3xl font-bold mb-8 text-center text-balance">Hear Our Real Estate Lead Generation in Action</h3>
+              <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <p className="text-center text-muted-foreground mb-6">
+                  Listen to how our team handles real estate leads with professionalism and efficiency:
+                </p>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="p-6 bg-emerald-50 rounded-lg">
+                    <h4 className="font-semibold mb-3 text-emerald-900">Sample Call 1: Buyer Inquiry</h4>
+                    <audio controls className="w-full">
+                      <source src="/audio-placeholder-buyer.mp3" type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                    <p className="text-sm text-muted-foreground mt-2">Professional response to buyer inquiry and scheduling</p>
+                  </div>
+                  <div className="p-6 bg-emerald-50 rounded-lg">
+                    <h4 className="font-semibold mb-3 text-emerald-900">Sample Call 2: Seller Inquiry</h4>
+                    <audio controls className="w-full">
+                      <source src="/audio-placeholder-seller.mp3" type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                    <p className="text-sm text-muted-foreground mt-2">Expert handling of seller inquiry and follow-up coordination</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -348,6 +375,59 @@ Thank you!`)
                   Get Construction Demo
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What We Do Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="relative">
+                <img
+                  src="/images/teamwwd.jpeg"
+                  alt="Task4Leads team and services overview"
+                  className="rounded-lg shadow-2xl w-full h-auto"
+                />
+              </div>
+              <div>
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">What We Do</h2>
+                <p className="text-xl text-muted-foreground mb-8 text-pretty">
+                  Our team of experts provides comprehensive lead generation and conversion services:
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Lead Generation</h4>
+                      <p className="text-muted-foreground">Help keep your company's pipeline full with cold calling and nurturing each prospect.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Follow-Up & Appointments</h4>
+                      <p className="text-muted-foreground">Professional follow-up to set appointments and move prospects down your sales funnel.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Data Management</h4>
+                      <p className="text-muted-foreground">Help your team create targeted lists by area and clean data by removing duplicates.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-1">Skip Tracing</h4>
+                      <p className="text-muted-foreground">Advanced skip tracing services to locate contacts and verify information.</p>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -613,11 +693,11 @@ Thank you!`)
               </p>
               <p className="mb-1">
                 <a
-                  href="tel:+15625734658"
+                  href="tel:+19362339064"
                   className="hover:text-primary-foreground transition-colors flex items-center justify-center md:justify-end"
                 >
                   <PhoneCall className="h-4 w-4 mr-2" />
-                  (562) 573-4658
+                  (936) 233-9064
                 </a>
               </p>
               <p className="mb-1">
